@@ -16,8 +16,8 @@ export default defineConfig({
       // starts with "/pdfs" request proxy to http://127.0.0.1:3000/pdfs
       // '/pdfs': 'http://127.0.0.1:3000',
       // '/pdf': 'http://127.0.0.1:3000',
-      '/pdfs': 'https://kind-blue-chicken-fez.cyclic.app/',
-      '/pdf': 'https://kind-blue-chicken-fez.cyclic.app/',
+      '/pdfs': 'https://kind-blue-chicken-fez.cyclic.app',
+      '/pdf': 'https://kind-blue-chicken-fez.cyclic.app',
     },
   },
 })
