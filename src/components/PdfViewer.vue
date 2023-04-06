@@ -74,7 +74,9 @@
     try {
       // set path to Web Worker
       pdfjsLib.GlobalWorkerOptions.workerSrc ='../../node_modules/pdfjs-dist/legacy/build/pdf.worker.js';
-      const response = await fetch('/pdfs');
+      // const response = await fetch('/pdfs');
+      const response = await fetch('https://kind-blue-chicken-fez.cyclic.app/pdfs');
+      console.log(response)
       if (!response.ok) {
         throw new Error('Could not retrieve PDFs');
       }
